@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#ir20m {
+    color: #5fb5ca;
+    border: 0 solid #5fb5ca;
+    font-size: 25px;
+}
+
+#irxoon {
+    font-size: 30px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header .navbar-nav a.nav-link {
+    color: rgb(119, 119, 119);
+}
+
+header .navbar-nav a.nav-link:hover {
+    color: rgb(82, 139, 255);
+}
+
+header .navbar-nav .active a.nav-link {
+    color: rgb(68, 68, 68);
+}
+
+header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+header.bg-dark .navbar-nav a.nav-link {
+    color: rgb(220, 220, 220);
+}
+
+header.bg-dark .navbar-nav a.nav-link:hover {
+    color: rgb(82, 139, 255);
+}
+
+header.bg-dark .navbar-nav .active a.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+header.bg-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+header + header {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(238, 238, 238);
+}
+
+.custom-logo {
+    width: 66px;
+    height: 42px;
+}
+
+.c5593 {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+    font-size: 25px;
+    border: 0px solid #df5555;
+}
+
+.c5669 {
+    color: rgb(18, 18, 18);
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: justify;
+    border: 0px solid black;
+}
+
+.fdb-block {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    color: rgb(68, 68, 68);
+    position: relative;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fdb-block .text-h1, .fdb-block h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    font-weight: 400;
+}
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.fdb-block .col-fill-left {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    z-index: 1;
+}
+
+a {
+    color: rgb(0, 123, 255);
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(0, 86, 179);
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.text-h3 {
+    font-family: Georgia, serif;
+}
+
+.c7285 {
+    color: rgb(18, 18, 18);
+    font-family: "Microsoft YaHei", u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;
+    text-align: justify;
+}
+
+.col-12.col-md-5.text-center {
+    height: 297px;
+}
+
+.c7909 {
+    color: black;
+    width: 547px;
+    height: 384px;
+}
+
+.fdb-block .col-fill-right {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    z-index: 1;
+}
+
+.fdb-block .col-fill-right + div {
+    position: relative;
+    z-index: 2;
+}
+
+.media-icons a {
+    margin-right: 12px;
+}
+
+.c8367 {
+    background-image: url(https://oss.htmlpage.cn/editor/images/bg_c_2.svg);
+}
+
+.fdb-block:active {
+    border: 0px solid #5fb5ca;
+}
+
+.col-12.col-md-5.text-center:active {
+    text-align: center;
+}
+
+.c17328 {
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.c17328:active {
+    text-align: center;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.col-12.col-md-5.text-center:nth-of-type(2n) {
+    height: 297px;
+}
+
+.container.pt-5.pb-5:nth-of-type(2n) {
+    width: 400px;
+    height: 300px;
+}
+
+.c23034 {
+    background-image: url(https://oss.htmlpage.cn/editor/images/bg_c_2.svg);
+}
+
+.c24078 {
+    color: black;
+    width: 400px;
+    height: 300px;
+}
+
+.c25263 {
+    background-image: url(https://oss.htmlpage.cn/editor/images/bg_c_1.svg);
+}
+
+.c25574 {
+    color: black;
+    width: 400px;
+    height: 300px;
+}
+
+.c26328 {
+    font-size: 30px;
+}
+
+.c27237 {
+    font-size: 30px;
+}
+
+.c28466 {
+    color: #ffffff;
+}
+
+.c28466.bin {
+    background-color: #a2b9e6;
+}
